@@ -1,24 +1,13 @@
----
-title: "README"
-author: "Diego Quevedo"
-date: "14 de diciembre de 2018"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## README
-# Getting and cleaning data course project
+# README
+## Getting and cleaning data course project
 
 This is the project of the third course of the Data Science specialization program by the JHU. The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. 
 
 The data for the project was the Human Activity Recognition Using Smartphones Data Set, available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. More details at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-#Files:
+## Files:
 
-#run_analysis.R
+### run_analysis.R
 
 Script that:
 
@@ -33,11 +22,11 @@ Script that:
 9. Change the variables names
 10. Creates an independent tidy data set with the average of each variable for each activity and each subject.
 
-#CodeBook.Rmd
+### CodeBook.md
 
 It contain all the variables and transformations performed to clean up the data.
 
-#group_with_mean.txt
+### group_with_mean.txt
 
 This text file is the independent data set mentioned above.
 
